@@ -1,0 +1,274 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0e0e0e; /* Set background color of the whole page to black */
+  color: white; /* Set default text color to white for better contrast */
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e0e0e;;
+  padding: 0 20px;
+}
+
+/* Search Box */
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  width: 200px;
+  font-weight: bold;
+  padding: 10px 40px 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Change border color to ensure it’s visible on black */
+  background-color: #333; /* Darker background for input field */
+  color: white; /* Text color for input field */
+}
+
+.search-box i {
+  position: absolute;
+  right: 10px;
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-box i:hover {
+  color: white; /* Change icon color on hover for better visibility */
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  color: #9Ba3b4;
+  font-weight: bold;
+  
+}
+
+.logoimg img {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+/* Navbar List */
+.lists {
+  display: flex;
+  margin-left: 100px;
+/* 9BA3B4 */
+}
+
+.lists ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.lists a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #9ba3b4;
+
+}
+
+.lists a:hover {
+  background-color: #333; /* Dark background on hover for list items */
+}
+
+/* Button */
+.btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005f99;
+}
+
+/* Main Body */
+.mainbody {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+}
+
+.window {
+  height: 456px;
+  width: 720px;
+}
+
+.leftside {
+  margin-top: 70px;
+}
+
+.right {
+  margin-top: 60px;
+}
+.contains {
+  margin-top: 50px;
+}
+
+/* Upper Section */
+.upper {
+  background-color: rgb(46, 44, 44);
+  color: rgb(95, 92, 92);
+  height: 37px;
+  width: 309px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+/* Middle Section */
+.middle {
+  margin-top: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.middle div {
+  margin: 10px 0px;
+}
+
+/* Downloads */
+.downloads {
+  display: flex;
+}
+
+.downloads button {
+  width: 150px;
+  height: 80px;
+  background-color: #007acc;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+.downloads img {
+  height: 14px;
+  width: 14px;
+  background-color: #007acc;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: black; /* Background color of footer */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.one, .sec {
+  display: flex;
+  width: 1240px;
+  margin-left: 120px;
+  color: white; /* Text color for footer sections */
+}
+
+.sec ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.sec ul li {
+  width: 70px;
+  height: 20px;
+  padding-left: 0px 20px 0px 0px;
+}
+
+.sec ul li a {
+  text-decoration: none;
+  color: #9ba3b4; /* Color of links in footer */
+}
+
+/* Codeanylan Section */
+.codeanylan {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.codeanylan .left {
+  width: 440px;
+  height: 193px;
+  font-size: larger;
+  color: rgb(56, 53, 54);
+  margin-left: 170px;
+  padding-left: 0px 40px;
+}
+
+.codeanylan .left p {
+  width: 360px;
+  height: 130px;
+  color: #9ba3b4;
+}
+
+.codeanylan .left div {
+  height: 45px;
+  width: 360px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.codeanylan .right {
+  width: 880px;
+  height: 184px;
+  margin-left: 100px;
+}
+
+/* Lan Section */
+.fourdivs {
+  display: flex;
+  align-items: center;
+}
+
+.lan img {
+  height: 40px;
+  width: 40px;
+}
+
+.lan {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 280px;
+}
+
+.icons {
+  height: 18.4px;
+  width: 18px;
+}
